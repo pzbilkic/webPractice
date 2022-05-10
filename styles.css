@@ -1,5 +1,13 @@
+@keyframes move {
+    0% {left:0px; top:0px;}
+    100%{left:50px; top:100px;}
+}
 #rectangle{
     background-color: black;
     width: 100px;
     height: 100px;
+    
+
+    animation-name: move;
+    animation-duration: 4s;
 }

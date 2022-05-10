@@ -1,9 +1,14 @@
 function bounce(){
     alert("x:");
-    var rectangle = Document.getElementById('rectangle');
-    rectangle.style.position = 'absolute';
+    const rectangle = document.getElementById('rectangle');
+    rectangle.style.animation="move 4s"
+    /*
+    console.log(rectangle.style.top);
+    rectangle.style.position = 'relative';
     rectangle.style.top = '100px';
-    rectangle.style.left = '200px';
-    document.getElementById('gfg').innerHTML = "worked";
+    rectangle.style.left = '500px';
+    */
+    
+    //document.getElementById('gfg').innerHTML = "worked";
 
 }
